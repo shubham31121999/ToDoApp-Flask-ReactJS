@@ -1,0 +1,64 @@
+# Ignore Python bytecode files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environment directory
+.venv/
+env/
+venv/
+
+# Ignore Flask instance folder
+instance/
+
+# Ignore SQLite database (or other databases if using)
+*.db
+*.sqlite3
+
+# Ignore logs and temporary files
+*.log
+*.bak
+*.swp
+*.swo
+*.pid
+*.prof
+
+# Ignore package distribution files
+*.egg
+*.egg-info/
+dist/
+build/
+*.tar.gz
+*.whl
+
+# Ignore IDE and text editor settings
+.vscode/
+.idea/
+
+# Ignore Python-specific IDEs' files
+*.iml
+
+# Ignore Jupyter Notebooks checkpoints
+.ipynb_checkpoints/
+
+# Ignore pyenv settings
+.python-version
+
+# Ignore environment variables file (e.g. for API keys, credentials)
+.env
+.env.*
+
+# Ignore coverage reports
+.coverage
+.coverage.*
+*.cover
+*.hypothesis/
+
+# Ignore pytest cache
+.cache/
+
+# Ignore mypy and other static analysis tools
+.mypy_cache/
+.dmypy.json
+.pyre/
